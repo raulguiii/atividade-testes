@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Avaliação - Automação de Teste de Software</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Avaliação disciplina automação de teste de software</h1>
+
+        <form id="formulario">
+            <label>Nome:</label>
+            <input type="text" id="nome" name="nome">
+
+            <label>RA:</label>
+            <input type="text" id="ra" name="ra">
+
+            <label>Data de nascimento:</label>
+            <div class="data-nascimento">
+                <input type="text" id="dia" placeholder="Dia" size="2">
+                <input type="text" id="mes" placeholder="Mês" size="2">
+                <input type="text" id="ano" placeholder="Ano" size="4">
+            </div>
+
+            <label>Curso:</label>
+            <select id="curso">
+                <option value="">Selecione</option>
+                <option value="ADS">Análise e Desenvolvimento de Sistemas</option>
+                <option value="SI">Sistemas de Informação</option>
+            </select>
+
+            <label>Aproveitamento do conteúdo:</label>
+            <select id="aproveitamento">
+                <option value="">Selecione</option>
+                <option value="0">0</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+            </select>
+
+            <label>Sugestões de melhoria para próximas turmas:</label>
+            <textarea id="sugestoes" rows="4"></textarea>
+
+            <label>Observações (opcional):</label>
+            <textarea id="observacoes" rows="3"></textarea>
+
+            <button type="submit">Enviar Feedback</button>
+        </form>
+    </div>
+</body>
+</html>
